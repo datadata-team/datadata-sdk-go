@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	apikey "github.com/datadata-team/datadata-sdk-go/api_key"
 	"github.com/google/uuid"
-	apikey "github.com/hungtcs/datadata-sdk-go/api_key"
 )
 
 func TestGenerateAPIToken(t *testing.T) {
